@@ -22,10 +22,11 @@ image-search/
 
 ---
 
-## 🐳 Step 1: Docker Build & Push
+## 🐳 Step 1: Docker Build Run & Push
 
 ```bash
 docker build -t pixa-search-app .
+docker run -d -p 8080:80 --name pixa-search-container pia-search-app
 docker tag pixa-search-app shreui/pixa-search-app:v1
 docker push shreui/pixa-search-app:v1
 ```
