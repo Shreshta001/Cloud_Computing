@@ -1,6 +1,7 @@
 # 📸 Pixa Search App – Dockerized Deployment with Monitoring
 
 This project is a Dockerized image search application named **Pixa Search App**, which is built, pushed to Docker Hub, and deployed with integrated monitoring using **cAdvisor**, **Prometheus**, and **Grafana**.
+Go to your project directory and then follow as below:
 
 ---
 
